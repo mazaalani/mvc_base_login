@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  width: 80vw;
+  margin: auto;
+}
+/* navigation  ===============*/
+nav {
+  align-items: center;
+  padding: 10px 0;
+  max-width: 85vw;
+  margin: 0 auto;
+}
+nav > div {
+  position: relative;
+}
+nav > div > div:nth-of-type(1) {
+  position: absolute;
+}
+nav > div > div:nth-of-type(2) {
+  right: 0;
+  position: absolute;
+}
+nav div > * {
+  display: block;
+}
+nav span {
+  color: inherit;
+}
+/* contenu ===============*/
+main {
+  padding: 100px 0 0 0;
+}
+main h1 {
+  color: rgb(200, 50, 0);
+  margin-bottom: 30px;
+}
+article {
+  margin-bottom: 30px;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 2px 2px rgba(121, 114, 114, 0.171);
+  border-radius: 5px;
+  padding: 5px;
+}
+article h2 {
+  display: inline-block;
+  margin-left: 10px;
+}
+article > div,
+article > div > a {
+  display: inline-block;
+  margin-left: 10px;
+}
+article p {
+  line-height: 25px;
+  margin: 10px;
+  padding: 5px;
+  background-color: white;
+}
+article span {
+  color: darkblue;
+  margin-left: 10px;
+}
+
+/* bontons et liens ===============*/
+a {
+  text-decoration: none;
+}
+.txt-input {
+  border-radius: 5px;
+  border: 2px solid rgba(121, 114, 114, 0.26);
+  padding: 5px;
+}
+.txt-input:focus {
+  border-radius: 5px;
+}
+.btn {
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-image: linear-gradient(red, orange);
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px;
+  max-width: max-content;
+  margin: 5px 0;
+}
+.btn:hover {
+  border-radius: 5px;
+  background-image: linear-gradient(orange, red);
+  padding: 6px;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+.link {
+  font-weight: bold;
+  color: rgb(200, 50, 0);
+}
+.link:hover {
+  text-shadow: 1px 1px yellow;
+}
+/* formulaires ===============*/
+.padding {
+  padding: 100px;
+}
+form fieldset {
+  padding: 20px;
+}
+textarea {
+  display: block;
+  margin-top: 20px;
+}
+.hidden {
+  display: none;
+}
+.center {
+  text-align: center;
+  padding: 100px;
+  margin: auto;
+  max-width: 300px;
+}
+.center * {
+  width: 100%;
+  margin: 10px 0;
+}
+.center input[type="submit"] {
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-image: linear-gradient(red, orange);
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+.center input[type="submit"]:hover {
+  border-radius: 5px;
+  background-image: linear-gradient(orange, red);
+  padding: 6px;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+
+/* Erreurs ===============*/
+span {
+  color: red;
+}
+/* Footer ===============*/
+footer {
+  background-color: rgb(245, 245, 245);
+}
+footer > div {
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+footer p {
+  margin-top: 50px;
+  text-align: right;
+}
